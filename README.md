@@ -1,7 +1,7 @@
 
 # Image_Caption_AI
 
-**Image_Caption_AI** is a web app that generates descriptive captions for uploaded images using a deep learning model. It combines a ResNet18 image encoder and a Transformer decoder to produce natural language descriptions. Built with Flask, the app offers a clean interface for users to interact with the model.
+**Image_Caption_AI** is a web application that generates descriptive captions for uploaded images using a deep learning model. It combines a ResNet18 image encoder and a Transformer decoder to produce natural language descriptions. Built with Flask, the app offers a clean interface for users to interact with the model.
 
 ---
 
