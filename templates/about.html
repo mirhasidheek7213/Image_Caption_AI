@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - ImageCaption AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">ImageCaption AI</div>
+        <nav>
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('about') }}">About</a>
+            <a href="{{ url_for('api') }}">API</a>
+        </nav>
+    </header>
+    <main>
+        <div class="content-section">
+            <h2>About ImageCaption AI</h2>
+            <p>ImageCaption AI is a image captioning system that uses neural networks to generate descriptive captions for images.</p>
+            
+            <h3>How it Works</h3>
+            <p>Our system uses a combination of combination of ResNet18 and Transformer decoder:</p>
+            <ul>
+                <li>A ResNet18 convolutional neural network extracts visual features from the uploaded image</li>
+                <li>A Transformer decoder generates natural language descriptions based on these features</li>
+                <li>Beam search is used to produce high-quality captions that accurately describe the image content</li>
+            </ul>
+            
+            <h3>Technology Stack</h3>
+            <p>Our application is built using:</p>
+            <ul>
+                <li>PyTorch for deep learning</li>
+                <li>Flask for the web framework</li>
+                <li>Modern HTML/CSS/JavaScript for the frontend</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 ImageCaption AI| Neural Network Image Captioning</p>
+    </footer>
+</body>
+</html>
