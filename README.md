@@ -64,7 +64,7 @@ Listed in `requirements.txt`:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/Image_Caption_AI.git
+   git clone https://github.com/mirhasidheek7213/Image_Caption_AI.git
    cd Image_Caption_AI
    ```
 
